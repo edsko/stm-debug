@@ -5,3 +5,5 @@ packages:
 
 package testsuite
   tests: true
+
+allow-newer: stm

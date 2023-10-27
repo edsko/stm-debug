@@ -11,7 +11,7 @@
 #endif
 
 -- #hide
-module Control.Sequential.STM (
+module Hidden.Sequential.STM (
         STM, atomically, throwSTM, catchSTM,
         TVar, newTVar, newTVarIO, readTVar, readTVarIO, writeTVar
     ) where
@@ -20,7 +20,7 @@ module Control.Sequential.STM (
 import Prelude hiding (catch)
 #endif
 #if __GLASGOW_HASKELL__ < 709
-import Control.Applicative (Applicative(pure, (<*>)))
+import Hidden.Applicative (Applicative(pure, (<*>)))
 #endif
 import Control.Exception
 import Data.IORef
