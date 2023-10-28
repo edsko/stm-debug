@@ -22,7 +22,7 @@
 module Hidden.Concurrent.STM.TMVar (
 #ifdef __GLASGOW_HASKELL__
         -- * TMVars
-        TMVar,
+        TMVar(..),
         newTMVar,
         newEmptyTMVar,
         newTMVarIO,

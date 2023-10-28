@@ -27,7 +27,7 @@
 -----------------------------------------------------------------------------
 
 module Hidden.Concurrent.STM (
-        module Control.Monad.STM,
+        module Hidden.Monad.STM,
         module Hidden.Concurrent.STM.TVar,
 #ifdef __GLASGOW_HASKELL__
         module Hidden.Concurrent.STM.TMVar,
@@ -38,7 +38,7 @@ module Hidden.Concurrent.STM (
         module Hidden.Concurrent.STM.TArray
   ) where
 
-import Control.Monad.STM
+import Hidden.Monad.STM
 import Hidden.Concurrent.STM.TVar
 #ifdef __GLASGOW_HASKELL__
 import Hidden.Concurrent.STM.TMVar

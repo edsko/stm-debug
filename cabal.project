@@ -2,6 +2,13 @@ packages:
   .
   testsuite
   bench
+  assignid
+  -- https://github.com/simonmar/async/pull/153
+  patched/async
+  -- https://github.com/UnkindPartition/tasty/pull/398
+  patched/tasty/core
+  -- so that we can extend the callstack for atomically
+  patched/unliftio/unliftio 
 
 package testsuite
   tests: true

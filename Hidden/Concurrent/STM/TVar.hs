@@ -20,7 +20,7 @@
 
 module Hidden.Concurrent.STM.TVar (
         -- * TVars
-        TVar,
+        TVar(..),
         newTVar,
         newTVarIO,
         readTVar,

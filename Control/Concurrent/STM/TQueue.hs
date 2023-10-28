@@ -1,3 +1,5 @@
+{-# LANGUAGE Safe #-}
+
 module Control.Concurrent.STM.TQueue (
     module Reexported
   ) where

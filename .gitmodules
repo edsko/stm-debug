@@ -1,0 +1,9 @@
+[submodule "patched/async"]
+	path = patched/async
+	url = git@github.com:edsko/async.git
+[submodule "patched/tasty"]
+	path = patched/tasty
+	url = git@github.com:edsko/tasty.git
+[submodule "patched/unliftio"]
+	path = patched/unliftio
+	url = git@github.com:edsko/unliftio.git
